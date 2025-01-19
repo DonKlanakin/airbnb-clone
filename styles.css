@@ -55,7 +55,7 @@ section {
 
 .hero {
   height: 83vh;
-    background-image: url("./public/img/background-image.webp");
+    background-image: url("./public/images/background-image.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
