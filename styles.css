@@ -27,6 +27,7 @@ section {
 .footer {
   background-color: var(--bg-footer);
   border-top: 1px solid var(--border-footer);
+  font-size: medium;
 }
 
 .fs-7 {
