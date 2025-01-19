@@ -1,7 +1,50 @@
 * {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --bg-main-color: whitesmoke;
+  --bg-footer: #F7F7F7;
+  --border-footer: #DDDDDD; 
+  --bg-black: black;
 }
 
 body {
   font-size: 62.5%;
+  background-color: var(--bg-main-color);
+}
+
+.bg-black {
+  background-color: var(--bg-black);
+}
+
+.footer {
+  background-color: var(--bg-footer);
+  border-top: 1px solid var(--border-footer);
+}
+
+.fs-7 {
+  font-size: small;
+}
+
+.header {
+  height: 0.6rem;
+  background: #000000;
+  text-align: center;
+  padding: 20px 40px;
+  margin: auto auto;
+}
+
+.hero {
+  height: 83vh;
+    background-image: url("/public/img/Background\ Image.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+  padding: 0 8rem;
+  min-height: 20rem;
 }
