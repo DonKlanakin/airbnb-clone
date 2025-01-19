@@ -31,6 +31,10 @@ section {
   background-color: red;
 }
 
+.accommodations {
+  padding: 2rem 6rem;
+}
+
 .community {
   padding: 2rem 6rem;
 }
