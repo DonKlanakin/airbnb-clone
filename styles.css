@@ -16,7 +16,6 @@ body {
 }
 
 section {
-  padding: 0 8rem;
   min-height: 20rem;
 }
 
@@ -52,6 +51,10 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.p-6 {
+  padding: 0 6rem;
 }
 
 .sitemap ul {
