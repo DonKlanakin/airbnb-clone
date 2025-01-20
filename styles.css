@@ -11,8 +11,12 @@
 }
 
 body {
-  font-size: 62.5%;
+  font-size: 1.6rem;
   background-color: var(--bg-main-color);
+}
+
+html {
+  font-size: 62.5%;
 }
 
 section {
@@ -35,8 +39,24 @@ section {
   padding: 2rem 6rem;
 }
 
+.cities {
+  padding: 2rem 6rem;
+}
+
 .community {
   padding: 2rem 6rem;
+}
+
+.effect-elevation a {
+  transition: all 200ms ease-in;
+}
+
+.effect-elevation a:hover  {
+  transform: scale(1.01);
+}
+
+.effect-elevation a:active  {
+  transform: scale(1);
 }
 
 .footer {
@@ -65,6 +85,10 @@ section {
     background-position: center;
 }
 
+.width-7 {
+  width: 7rem;
+}
+
 .p-6 {
   padding: 6rem;
 }
@@ -79,5 +103,9 @@ section {
 
 .sitemap ul {
   font-size: medium;
+  list-style-type: none;
+}
+
+.cities ul {
   list-style-type: none;
 }
