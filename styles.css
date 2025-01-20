@@ -19,12 +19,8 @@ html {
   font-size: 62.5%;
 }
 
-section {
-  min-height: 20rem;
-}
-
 .activities {
-  padding: 2rem 6rem 3.2rem;
+  padding: 6rem;
 }
 
 .bg-black {
@@ -36,11 +32,11 @@ section {
 }
 
 .accommodations {
-  padding: 2rem 6rem;
+  padding: 6rem;
 }
 
 .cities {
-  padding: 2rem 6rem;
+  padding: 6rem 6rem 0rem 6rem;
 }
 
 .cities ul {
@@ -48,7 +44,7 @@ section {
 }
 
 .community {
-  padding: 2rem 6rem;
+  padding: 6rem 6rem 2rem 6rem;
 }
 
 .effect-elevation a {
@@ -67,6 +63,7 @@ section {
   background-color: var(--bg-footer);
   border-top: 1px solid var(--border-footer);
   font-size: medium;
+  padding: 6rem;
 }
 
 .fs-7 {
