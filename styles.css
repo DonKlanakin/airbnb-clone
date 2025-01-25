@@ -28,7 +28,7 @@ section {
 }
 
 .activities {
-  padding: 2rem 6rem 3.2rem;
+  padding: 6rem;
 }
 
 .bg-black {
@@ -52,7 +52,7 @@ section {
 }
 
 .community {
-  padding: 2rem 6rem;
+  padding: 6rem 6rem 2rem 6rem;
 }
 
 .effect-elevation a {
@@ -60,7 +60,7 @@ section {
 }
 
 .effect-elevation a:hover  {
-  transform: scale(1.01);
+  transform: scale(1.02);
 }
 
 .effect-elevation a:active  {
@@ -100,8 +100,8 @@ section {
   background-position: center;
 }
 
-.width-7 {
-  width: 7rem;
+.mb-6 {
+  margin-bottom: 6rem;
 }
 
 .p-6 {
@@ -125,6 +125,9 @@ section {
   list-style-type: none;
 }
 
+.square-7 {
+  height: 7rem;
+  width: 7rem;
 .square-7 {
   height: 7rem;
   width: 7rem;
