@@ -85,15 +85,13 @@ section {
 }
 
 .header {
-  height: 0.6rem;
   background: #000000;
   text-align: center;
-  padding: 20px 40px;
   margin: auto auto;
 }
 
 .hero {
-  padding: 2rem 6rem;
+  padding: 2rem 8rem 2rem 8rem;
   height: 100vh;
   background-image: url("./public/images/background-image.webp");
   background-repeat: no-repeat;
