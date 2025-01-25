@@ -23,6 +23,10 @@ section {
   min-height: 20rem;
 }
 
+.accommodations {
+  padding: 2rem 6rem;
+}
+
 .activities {
   padding: 2rem 6rem 3.2rem;
 }
@@ -35,12 +39,16 @@ section {
   background-color: red;
 }
 
-.accommodations {
-  padding: 2rem 6rem;
+.border-rounded-4 {
+  border-radius: 1rem;
 }
 
 .cities {
   padding: 2rem 6rem;
+}
+
+.cities ul {
+  list-style-type: none;
 }
 
 .community {
@@ -65,6 +73,12 @@ section {
   font-size: medium;
 }
 
+.f-hero {
+  font-size: 6rem;
+  font-weight: bolder;
+  line-height: 110%;
+}
+
 .fs-7 {
   font-size: small;
 }
@@ -78,11 +92,12 @@ section {
 }
 
 .hero {
+  padding: 2rem 6rem;
   height: 83vh;
-    background-image: url("./public/images/background-image.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  background-image: url("./public/images/background-image.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .width-7 {
@@ -91,6 +106,10 @@ section {
 
 .p-6 {
   padding: 6rem;
+}
+
+.p-btn {
+  padding: 2rem 2.4rem;
 }
 
 .py-6 {
@@ -106,6 +125,7 @@ section {
   list-style-type: none;
 }
 
-.cities ul {
-  list-style-type: none;
+.square-7 {
+  height: 7rem;
+  width: 7rem;
 }
