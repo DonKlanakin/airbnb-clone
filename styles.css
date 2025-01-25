@@ -44,7 +44,7 @@ section {
 }
 
 .cities {
-  padding: 2rem 6rem;
+  padding: 6rem 6rem 0rem 6rem;
 }
 
 .cities ul {
@@ -68,6 +68,7 @@ section {
 }
 
 .footer {
+  padding: 2rem 6rem 2rem 6rem;
   background-color: var(--bg-footer);
   border-top: 1px solid var(--border-footer);
   font-size: medium;
@@ -93,7 +94,7 @@ section {
 
 .hero {
   padding: 2rem 6rem;
-  height: 83vh;
+  height: 100vh;
   background-image: url("./public/images/background-image.webp");
   background-repeat: no-repeat;
   background-size: cover;
