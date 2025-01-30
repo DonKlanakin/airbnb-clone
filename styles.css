@@ -8,6 +8,7 @@
   --bg-footer: #F7F7F7;
   --border-footer: #DDDDDD; 
   --bg-black: black;
+  --bg-light: #F7F7F7;
 }
 
 body {
@@ -32,6 +33,10 @@ section {
 }
 
 .bg-black {
+  background-color: var(--bg-black);
+}
+
+.bg-light {
   background-color: var(--bg-black);
 }
 
@@ -130,6 +135,11 @@ section {
   padding: 0 6rem;
 }
 
+.search-bar {
+  border-radius: 2rem;
+  padding: 4rem 2rem;
+}
+
 .sitemap ul {
   font-size: medium;
   list-style-type: none;
@@ -138,4 +148,46 @@ section {
 .square-7 {
   height: 7rem;
   width: 7rem;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  .search-bar {
+    border-radius: 2rem;
+    padding: 4rem 2rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .search-bar {
+    border-radius: 4rem;
+    padding: 2rem 4rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .search-bar {
+    border-radius: 8rem;
+    padding: 2rem 4rem;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .search-bar {
+    border-radius: 8rem;
+    padding: 2rem 4rem;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+  .search-bar {
+    border-radius: 8rem;
+    padding: 2rem 4rem;
+  }
 }
