@@ -113,6 +113,26 @@ section {
   margin-bottom: 6rem;
 }
 
+.nav-fx {
+  border-bottom: 0.1rem solid #ffffff00;
+  position: relative;
+}
+
+.nav-fx::after {
+  content: '';
+  position: absolute;
+  height: 0.1rem;
+  width: 100%;
+  bottom: 0;
+  background-color: white;
+  opacity: 0;
+  transition: 0.5s ease-out;
+}
+
+.nav-fx:hover::after {
+  opacity: 1;
+}
+
 .p-6 {
   padding: 6rem;
 }
@@ -138,6 +158,18 @@ section {
 .search-bar {
   border-radius: 2rem;
   padding: 4rem 2rem;
+}
+
+.search-button {
+  height: 45px;
+  width: 45px;
+  border: none;
+  border-radius: 50%;
+  background-color: #fa215b;
+}
+
+.search-button:hover {
+  background-color: #DC0E64;
 }
 
 .sitemap ul {
