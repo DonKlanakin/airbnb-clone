@@ -151,10 +151,12 @@ section {
 }
 
 .personalization>:nth-child(1) {
+  border-radius: 4rem;
   padding: 1rem 1.2rem;
 }
 
 .personalization>:nth-child(2) {
+  border-radius: 4rem;
   padding: 1rem 1.2rem;
 }
 
@@ -165,6 +167,7 @@ section {
 .personalization>:not(:last-child):hover {
   background-color: hsla(0, 0%, 80%, 0.2);
   border-radius: 4rem;
+  transition: 0.5s ease-out;
 }
 
 .cta{
@@ -209,13 +212,15 @@ section {
   height: 6.6rem;
   width: 84rem;
   margin: auto;
+  margin-top: 2rem;
   background-color: #FFFFFF;
   border-radius: 4rem;
 }
 
 .search-bar-input>div {
   width: 13rem;
-
+  position: relative;
+  transition: 0.5s ease-out;
 }
 
 .search-bar-input>:nth-child(1) {
@@ -249,11 +254,22 @@ section {
   text-align: left;
 }
 
-.search-bar-input>div:hover {
+.search-bar-input>div::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
   padding: 0.2rem 0;
-  background-color: #e7e7e7;
+  background-color: #666666;
   border-radius: 4rem;
-  cursor: pointer;
+  opacity: 0;
+  transition: 0.5s ease-out;
+}
+
+.search-bar-input>div:hover::before {
+  opacity: 0.2;
 }
 
 .search-bar-input input {
