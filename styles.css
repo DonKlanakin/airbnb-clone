@@ -161,8 +161,8 @@ section {
 }
 
 .search-button {
-  height: 4.4rem;
-  width: 4.4rem;
+  min-height: 4.4rem;
+  min-width: 4.4rem;
   border: none;
   border-radius: 50%;
   background-color: #fa215b;
@@ -172,57 +172,61 @@ section {
   background-color: #DC0E64;
 }
 
-.search_input {
+.search-bar-input {
   display: flex;
   align-items: center;
   text-align: center;
   height: 6.6rem;
-  width: 80rem;
+  min-width: 80rem;
   margin: auto;
   background-color: #FFFFFF;
-  border-radius: 110px;
+  border-radius: 4rem;
 }
 
-.search_input>div {
+.search-bar-input>div {
   width: 13rem;
 
 }
 
-.search_input>:nth-child(1) {
-  width: 18rem;
-  border-right: 1px solid #dadada;
+.search-bar-input>:nth-child(1) {
+  min-width: 24rem;
+  border-right: 0.1rem solid #cccccc;
 }
 
-.search_input>:nth-child(2) {
-  width: 18rem;
-  border-right: 1px solid #dadada;
+.search-bar-input>:nth-child(2) {
+  min-width: 16rem;
+  border-right: 0.1rem solid #cccccc;
 }
 
-.search_input>:nth-child(3) {
-  width: 18rem;
-  border-right: 1px solid #dadada;
+.search-bar-input>:nth-child(3) {
+  min-width: 16rem;
+  border-right: 0.1rem solid #cccccc;
 }
 
-.search_input>:nth-child(4) {
-  width: 11rem;
+.search-bar-input>:nth-child(4) {
+  min-width: 16rem;
   border: none;
 }
 
-.search_input>div * {
+.search-bar-input>:nth-child(5) {
+  margin-left: auto;
+}
+
+.search-bar-input>div * {
   width: 70%;
   margin: auto;
   border: none;
   text-align: left;
 }
 
-.search_input>div:hover {
-  padding: 10px 0;
+.search-bar-input>div:hover {
+  padding: 0.2rem 0;
   background-color: #e7e7e7;
-  border-radius: 110px;
+  border-radius: 4rem;
   cursor: pointer;
 }
 
-.search_input input {
+.search-bar-input input {
   background: transparent;
 }
 
@@ -234,46 +238,4 @@ section {
 .square-7 {
   height: 7rem;
   width: 7rem;
-}
-
-
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-  .search-bar {
-    border-radius: 2rem;
-    padding: 4rem 2rem;
-  }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-  .search-bar {
-    border-radius: 4rem;
-    padding: 2rem 4rem;
-  }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-  .search-bar {
-    border-radius: 8rem;
-    padding: 2rem 4rem;
-  }
-}
-
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-  .search-bar {
-    border-radius: 8rem;
-    padding: 2rem 4rem;
-  }
-}
-
-/* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) { 
-  .search-bar {
-    border-radius: 8rem;
-    padding: 2rem 4rem;
-  }
 }
