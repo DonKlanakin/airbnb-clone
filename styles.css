@@ -48,6 +48,15 @@ section {
   border-radius: 1rem;
 }
 
+.burger-menu {
+  position: relative;
+  height: 42px;
+  width: 77px;
+  border: none;
+  border-radius: 110px;
+  top: 7px;
+}
+
 .cities {
   padding: 6rem 6rem 0rem 6rem;
 }
@@ -135,6 +144,28 @@ section {
 
 .p-6 {
   padding: 6rem;
+}
+
+.personalization {
+  margin-left: auto;
+}
+
+.personalization>:nth-child(1) {
+  padding: 1rem 1.2rem;
+}
+
+.personalization>:nth-child(2) {
+  padding: 1rem 1.2rem;
+}
+
+.personalization>:last-child {
+  margin-left: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.personalization>:not(:last-child):hover {
+  background-color: hsla(0, 0%, 80%, 0.2);
+  border-radius: 4rem;
 }
 
 .cta{
